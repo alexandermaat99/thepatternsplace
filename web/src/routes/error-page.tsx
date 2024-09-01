@@ -5,7 +5,7 @@ export const ErrorPage = () => {
   console.log(error);
 
   if (!isRouteErrorResponse(error)) {
-    return <div>Unknown error</div>;
+    return <div>Something Wrong Happened</div>;
   }
 
   return (
